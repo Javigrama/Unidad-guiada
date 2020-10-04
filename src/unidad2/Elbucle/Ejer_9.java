@@ -20,9 +20,9 @@ public class Ejer_9 {
             System.out.println("Introduzca un número");
             n=entrada.nextLong();
             
-            int count=1;
-            for(long i=1; i<=n; i*=10){
-                if(n%i!=0)
+            int count=1; //damos por sentado que al menos tiene una cifra
+            for(long i=1; i<=n; i*=10){ //cada iteracion actualiza la variable elevándo 10 a la iteración
+                if(n%i!=0) // si sobra algo cuando dividimos nuestro número por la variable es que es mayor de 10 elevado a la iteración y sumamos uno al contador
                      count++;}
             
             System.out.println("El número tiene "+count+  (count>1?" dígitos": " dígito"));
