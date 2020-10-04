@@ -14,12 +14,12 @@ public class ejer_5_1_1 {
     public static void main(String[] args) {
         
         int i=9;
-       
+      
         while(i>0){
             
         System.out.print("*");
         
-        //||i==2+3*count
+       
         if(i==8||i==5||i==2){
             i--;
             continue;
