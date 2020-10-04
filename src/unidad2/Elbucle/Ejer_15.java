@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author javie
  */
-public class Ejer_14 {
+public class Ejer_15 {
     
         public static void main(String[] args) {
           
