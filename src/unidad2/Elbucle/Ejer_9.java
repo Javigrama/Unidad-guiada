@@ -25,7 +25,7 @@ public class Ejer_9 {
                 if(n%i!=0)
                      count++;}
             
-            System.out.println("El número tiene "+count+  "dígitos");
+            System.out.println("El número tiene "+count+  (count>1?" dígitos": " dígito"));
             
             
            /* String n="";
