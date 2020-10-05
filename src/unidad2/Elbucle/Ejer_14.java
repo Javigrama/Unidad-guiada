@@ -11,9 +11,9 @@ import java.util.Scanner;
  *
  * @author javie
  */
-public class Ejer_15 {
+public class Ejer_14 {
     
-        public static void main(String[] args) {
+     public static void main(String[] args) {
           
            int base;
            int exponente;
@@ -25,13 +25,10 @@ public class Ejer_15 {
              System.out.println("Introduzca un exponente");
              exponente=entrada.nextInt();
              
-             
-             for(int i=0; i<=exponente; i++){
-                if(i==0){resultado=1;
-                System.out.println(resultado);
-                }
-                else
-                 System.out.print((resultado=resultado*base)+" " );
-             }
-        }
+          for(int i=1; i<=exponente; i++){
+             resultado=resultado*base;
+          }
+             System.out.println(base+" elevado a " + exponente+ " es igual a " +resultado);
+     }
+    
 }
