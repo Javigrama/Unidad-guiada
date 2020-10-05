@@ -33,8 +33,7 @@ public class Ejer_20 {
                 
                     for(int j=0; j<=h*2; j++)
                   
-                   System.out.print(j>=h-i&&j<=h+i? c:" ");
+                   System.out.print(i==h-1? c:(j==h-i||j==h+i? c:" "));
        }
-    
-}
+       }
 }
