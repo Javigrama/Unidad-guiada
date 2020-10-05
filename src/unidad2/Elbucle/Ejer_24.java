@@ -26,7 +26,9 @@ public class Ejer_24 {
                   if(i>1) System.out.println();
                   for(int j=1; j<2*h ; j++){
                       
-                      System.out.print(j>h-i&&j<h+i? i:" ");
+                     System.out.print(j>h-i&&j<h+i? i:" ");
+                      
+                  
                   }
               
               
