@@ -31,7 +31,7 @@ public class Ejer_19 {
                   if(i>0)
                 System.out.println();
                 
-                    for(int j=0; j<=h*2; j++)
+                    for(int j=0; j<h*2; j++)
                   
                    System.out.print(j>=h-i&&j<=h+i? c:" ");
        }
