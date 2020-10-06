@@ -16,8 +16,9 @@ public class Ejer_25 {
       public static void main(String[] args) {
           
               int n;
-              int c1, c2, c3, c4, c5;
-              int n1, n2, n3, n4, n5;
+              String numero="";
+              int cifra;
+              
               
               Scanner entrada=new Scanner(System.in);
               System.out.println("Inserte un número");
@@ -32,11 +33,21 @@ public class Ejer_25 {
             System.out.println("El número tiene "+count+  (count>1?" dígitos": " dígito"));
             
             while(count>0){
-            c1=(int)(n/Math.pow(10, count-1));
-            n2=n-( c1*(int)Math.pow(10, count-1));
-          //  count--};
+            cifra=(int)(n/Math.pow(10, count-1));
+            System.out.println("La cifra posición "+ count+ " es "+ cifra);
             
-            //System.out.print(c1 +" "+ n2);
+            int resultado=1;
+            for(int i=1; i<=count-1; i++){
+             resultado=resultado*10;
+            }
+            n=n-(cifra*resultado);
+            //n=n-( cifra*(int)Math.pow(10, count-1)); Podríamos hacer esta operación con el Math.Pow pero lo hacemos
+            // sin este método por motivos didácticos
+            count--;
+            numero=""+cifra+ numero;
+            }
+            
+            System.out.print("El número al revés es "+numero+ "\n");
             
        
                     
@@ -46,4 +57,4 @@ public class Ejer_25 {
             }              
     
     }
-}
+
