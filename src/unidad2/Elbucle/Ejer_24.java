@@ -15,7 +15,7 @@ public class Ejer_24 {
     
         public static void main(String[] args) {
           
-              int h=1;
+              int h=1; //numeros que serán escritos
               int altura;   
               Scanner entrada=new Scanner(System.in);
               System.out.println("Inserte un número");
