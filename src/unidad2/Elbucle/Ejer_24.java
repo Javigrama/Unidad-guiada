@@ -15,13 +15,37 @@ public class Ejer_24 {
     
         public static void main(String[] args) {
           
-              int h;
-                 
+              int h=1;
+              int altura;   
               Scanner entrada=new Scanner(System.in);
               System.out.println("Inserte un número");
-              h=entrada.nextInt();
+              altura=entrada.nextInt();
+              int espacios=altura-1;
               
-              for(int i=1; i<=h; i++){
+           
+              for(int linea=0; linea<altura; linea++){
+                  
+                  for(int j=1;j<=espacios; j++){
+                      
+                      System.out.print(" ");
+                  }
+
+                  for(int j=1; j<=h; j++){
+                      
+                      System.out.print(j);
+                  }
+                  
+                  for(int j=h-1; j>0; j--){
+                      
+                      System.out.print(j);
+                  }
+                  h++;
+                  System.out.println("");
+                  espacios--;
+              }
+              
+              
+              /* for(int i=1; i<=h; i++){
                   
                   if(i>1) System.out.println();
                   
