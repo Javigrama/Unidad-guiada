@@ -17,12 +17,16 @@ public class Ejer_7 {
          
          int combinacion=1357;
          Scanner entrada=new Scanner(System.in);
+         int count =4;
          
+         while(count>0){
          System.out.println("Ingrese la combinación de la caja fuerte");
          
          if(entrada.nextInt()==combinacion) System.out.println("La caja fuerte se "
                  + "ha abierto satisfactoriamente");
          else System.out.println("Lo siento, esa no es la combinación");
+         count--;
+         }
      }
     
 }
