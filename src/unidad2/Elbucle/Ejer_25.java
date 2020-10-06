@@ -50,9 +50,6 @@ public class Ejer_25 {
             System.out.print("El número al revés es "+numero+ "\n");
             
        
-                    
-            
-            
             
             }              
     
