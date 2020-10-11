@@ -26,7 +26,8 @@ public class Ejer_25bis {
                   
                   vuelta=(vuelta*10)+(numero%10);
                   numero/=10;
+                    System.out.println("Si al numero "+ copia+ " le damos la vuelta es : "+ vuelta);
               }
-    System.out.println("Si al numero"+ copia+ "le damos la vuelta es : "+ vuelta);
+    System.out.println("Si al numero "+ copia+ " le damos la vuelta es : "+ vuelta);
 }
 }

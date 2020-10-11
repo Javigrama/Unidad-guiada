@@ -45,38 +45,7 @@ public class Ejer_24 {
               }
               
               
-              /* for(int i=1; i<=h; i++){
-                  
-                  if(i>1) System.out.println();
-                  
-                 //for(int j=1; j<2*h ; j++){
-                      
-                   //  System.out.print(j>h-i&&j<h+i? i:" ");
-                      
-                  for(int j=1; j<=h; j++){
-                      
-                      System.out.print(j%h>0?j%h: i);}
-                  
-                  for(int z=h-1; z>=1; z--)
-                      
-                    System.out.print(z%h>0?z%h :i);
-                      
-                   //  for(int z=h)
-                  }
-              
-              
-              
-              /*
-                 for(int i=0; i<h; i++){
-              
-                  if(i>0)
-                System.out.println();
-                
-                    for(int j=1; j<h*2; j++)
-                  
-                  System.out.print(j>=h-i&&j<=h+i? i+1:" ");             
-           
-                   */   
+          
                   }
               }
          
