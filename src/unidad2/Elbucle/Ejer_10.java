@@ -33,7 +33,7 @@ public class Ejer_10 {
           
           media=(double)suma/count;
           System.out.println("La media es "+ media);
-          
+          entrada.close();
       }
     
         
