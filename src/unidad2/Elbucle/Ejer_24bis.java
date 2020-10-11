@@ -34,8 +34,8 @@ public class Ejer_24bis {
                       System.out.print(j);
                   }
                  
-                 for(int j=1; j<n; j++)
-                      System.out.print(j);
+                for(int j=1; j<n; j++)
+                    System.out.print(j);
                  
                 espacios--;
                 n++;

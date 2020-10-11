@@ -97,8 +97,9 @@ public class Ejer_34 {
                   
                      
             }   
-                System.out.println(pares+" pares");  
-                     System.out.println(impares+" impares");  
-  
+                System.out.print("El número formado por los pares es ");  
+                System.out.println( pares==""?  "0": pares);  
+                System.out.print("El número formado por los impares es ");  
+                System.out.println( impares==""?  "0": impares);  
     }
 }
