@@ -21,7 +21,7 @@ public class Ejer_32 {
             int numero;
            
             int cifras=0;
-           
+            int suma =0;
             int exp=1;
             int digito;
            
@@ -39,7 +39,7 @@ public class Ejer_32 {
             
             
  
-               /* while(numero>0){
+                while(numero>0){
                      
                 
                 for(int i=1; i<=numero; i*=10){ //Si al hacer el módulo del número entre i nos
@@ -52,33 +52,40 @@ public class Ejer_32 {
                    exp*=10;                 // concretamente la primera cifra
                
                int cociente=numero/exp;
-               if(cociente%2==0) nuevo+=cociente;
+               if(cociente%2==0){ nuevo+=cociente +" ";
+               suma+=cociente;}
                numero%=exp;
                cifras=0;
                exp=1;
                 }
                
                
+              System.out.println("Digitos pares " +nuevo);
+              System.out.println("La suma es "+ suma);
               
-               System.out.println(nuevo+ "nuevo numero");*/
                
              
-               int nuevo2=0;
+             /*  int nuevo2=0;
                int par=0;
                int exp2=1;
                int count=0;
+             
                while(numero>0){
                   
                digito=numero%10; //Averigüamos el módulo del número
                if(digito%2==0){
                    par=digito;
+                   suma+=par;
                    if (count>0) exp2*=10;
                    count++;
                      nuevo2+=par*exp2;
-                     System.out.println(nuevo2);
+                     
                }
                numero/=10;
                
              }
+               
+              System.out.println("Digitos pares " +nuevo2);
+              System.out.println("La suma es "+ suma);*/
     }
 }
