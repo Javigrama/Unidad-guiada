@@ -18,7 +18,7 @@ public class Ejer_32 {
     public static void main(String[] args) {
             
             String nuevo="";
-            int numero;
+            long numero;
            
             int cifras=0;
             int suma =0;
@@ -28,7 +28,7 @@ public class Ejer_32 {
             
             Scanner entrada=new Scanner(System.in);
             System.out.println("Inserte un número");
-            numero=entrada.nextInt();
+            numero=entrada.nextLong();
             
             //un número es par si su modúlo entre 2 es 0. Luego Tenemos que averiguar
             //ese datos realizando la operación entre cada cifra. Para esto tenemos que
@@ -51,7 +51,7 @@ public class Ejer_32 {
                 for(int i=1; i<cifras; i++)  //averiguamos el divisor en potencia de 10 para sacar la parte entera del número,                           
                    exp*=10;                 // concretamente la primera cifra
                
-               int cociente=numero/exp;
+               int cociente=(int)numero/exp;
                if(cociente%2==0){ nuevo+=cociente +" ";
                suma+=cociente;}
                numero%=exp;
