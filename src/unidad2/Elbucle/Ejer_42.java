@@ -21,7 +21,7 @@ public class Ejer_42 {
             System.out.println("Inserte un número");
             n=entrada.nextInt();
  
-            for(int i=n+1; i<n+6; i++){
+            for(int i=n; i<n+5; i++){
                 int count=0;
                 for(int j=1; j<=i; j++){
                    
@@ -31,5 +31,6 @@ public class Ejer_42 {
             System.out.println(i + (count>2 ? " no es primo": " es primo"));
                     
             }
+            entrada.close();
    }
 }
