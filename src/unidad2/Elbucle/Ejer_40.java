@@ -51,19 +51,12 @@ public class Ejer_40 {
                         else System.out.print("  ");}
                       
                         System.out.println();
-                      
-                      
-                      
-                    
-                     
+            
                   }
                 
-          
-                
-                  
-                
-          }
-                 
-            }
+   
+                }
+                entrada.close();
+    }
     
 }
