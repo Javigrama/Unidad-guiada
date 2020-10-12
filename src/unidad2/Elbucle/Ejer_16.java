@@ -30,7 +30,7 @@ public class Ejer_16 {
                     if(n%i==0)  System.out.println("El numero no es primo");
                     else  System.out.println("El numero es primo");
                 
-                
+                entrada.close();
             }
             
        }
@@ -46,7 +46,7 @@ public class Ejer_16 {
              if(contador <= 2) System.out.println("El numero es primo");
              else System.out.println("El numero no es primo");
              
-             
+           
          }
 }
 

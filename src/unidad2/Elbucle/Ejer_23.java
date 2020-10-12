@@ -34,6 +34,6 @@ public class Ejer_23 {
               System.out.println("La suma es " +suma);
               System.out.print("La media es "+(double)suma/contador);
               
-    
+    entrada.close();
         }
 }

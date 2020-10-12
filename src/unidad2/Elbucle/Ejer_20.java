@@ -35,5 +35,6 @@ public class Ejer_20 {
                   
                    System.out.print(i==h-1? c:(j==h-i||j==h+i? c:" "));
        }
+              entrada.close();
        }
 }

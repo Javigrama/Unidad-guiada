@@ -30,7 +30,7 @@ public class Ejer_29 {
                 if(i%n2!=0&&i>0)
                     
                     System.out.print(i+" ");
-                
+                entrada.close();
     
      }
 }

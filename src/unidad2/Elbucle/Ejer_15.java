@@ -33,5 +33,6 @@ public class Ejer_15 {
                 else
                  System.out.print((resultado=resultado*base)+" " );
              }
+             entrada.close();
         }
 }

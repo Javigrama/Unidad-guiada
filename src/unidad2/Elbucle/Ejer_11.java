@@ -25,6 +25,7 @@ public class Ejer_11 {
              for(int i=1; i<=5; i++){
                  System.out.printf("%-10d%10.1f%10.1f\n", (numero+i), Math.pow((numero+i), 2), Math.pow((numero+i), 3));
              }
+             entrada.close();
     }
     
 }

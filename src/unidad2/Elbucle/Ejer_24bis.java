@@ -41,7 +41,7 @@ public class Ejer_24bis {
                 n++;
                 System.out.println();
             }
-            
+            entrada.close();
         }
     
 }

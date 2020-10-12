@@ -29,5 +29,6 @@ public class Ejer_31 {
                 System.out.print(i<h? "*\n": "*");
             for(int i=1; i<=b; i++)
                  System.out.print(" *");
+            entrada.close();
 }
 }

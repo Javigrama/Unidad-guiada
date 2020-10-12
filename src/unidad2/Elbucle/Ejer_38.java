@@ -20,7 +20,7 @@ public class Ejer_38 {
             Scanner entrada=new Scanner(System.in);
             System.out.println("Inserte un número impar mayor o igual que 3");
             h=entrada.nextInt();
-            if(h<=3||h%2==0) System.out.println("El número no es impar o/y no es mayor de 3");
+            if(h<3||h%2==0) System.out.println("El número no es impar o/y no es mayor de 3");
             
             else {
                 

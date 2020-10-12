@@ -51,5 +51,6 @@ public class Ejer_36 {
             //si queda una sóla cifra es que el módulo y el cociente han venido siendo iguales y como sólo queda 1 pues es capicúa
              if(cifras<=1)System.out.println("El número "+ numero+" es capicua");
              else  System.out.println("El número " + numero + " no es capicúa");
+             entrada.close();
     }
 }

@@ -44,7 +44,7 @@ public class Ejer_24 {
                   espacios--;
               }
               
-              
+              entrada.close();
           
                   }
               }

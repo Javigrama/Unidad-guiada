@@ -35,6 +35,6 @@ public class Ejer_19 {
                   
                    System.out.print(j>=h-i&&j<=h+i? c:" ");
        }
-    
+    entrada.close();
 }
 }

@@ -8,7 +8,7 @@ package unidad2.Elbucle;
 import java.util.Scanner;
 
 /**
- *
+ * Pintar por pantalla un rombo hueco con un altura impar y >=3
  * @author javie
  */
 public class Ejer_39 {
@@ -25,5 +25,6 @@ public class Ejer_39 {
               for(int i=1; i<=numero; i++){
                   factorial*=i;
               System.out.println(i+" ! = "+ factorial);}
+              entrada.close();
     }
 }

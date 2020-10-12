@@ -43,5 +43,6 @@ public class Ejer_37 {
             }
             
             System.out.print(palote);
+            entrada.close();
     }
 }

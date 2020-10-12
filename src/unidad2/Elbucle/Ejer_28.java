@@ -27,6 +27,6 @@ public class Ejer_28 {
                 factorial*=i;
             
             System.out.println(factorial);
-    
+            entrada.close();
     }
 }

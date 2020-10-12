@@ -36,6 +36,7 @@ public class Ejer_27 {
                
             }
              System.out.print("\nHay "+contador+ " múltiplos de 3 que suman "+ suma+"\n");
+             entrada.close();
      }
     
 }

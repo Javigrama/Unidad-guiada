@@ -34,6 +34,7 @@ public class Ejer_12 {
                  b=r;}
               
              }
+             entrada.close();
       }
     
 }

@@ -35,7 +35,7 @@ public class Ejer_30 {
     
            
             
-            for(int i=0; i<dias.length; i++) {
+            for(int i=0; i<7; i++) {
                 
             
                 if(dia1.compareToIgnoreCase(dias[i])==0) d1=i;
@@ -56,6 +56,6 @@ public class Ejer_30 {
             System.out.print("Entre las "+hora1+ "h del "+ dia1+" y las " +hora2+
                     "h del "+dia2+" hay "+((d2*24+hora2)-(d1*24+hora1))+" horas");
             
-            
+            entrada.close();
     }
 }

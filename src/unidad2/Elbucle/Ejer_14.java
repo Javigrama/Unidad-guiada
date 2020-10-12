@@ -29,6 +29,7 @@ public class Ejer_14 {
              resultado=resultado*base;
           }
              System.out.println(base+" elevado a " + exponente+ " es igual a " +resultado);
+             entrada.close();
      }
     
 }

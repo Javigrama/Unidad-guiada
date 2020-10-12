@@ -29,6 +29,7 @@ public class Ejer_13 {
              n--;}
              
          System.out.println("Hay "+ negativos +" números negativos y "+ positivos+ " números positivos");
+         entrada.close();
      }
           
          

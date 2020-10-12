@@ -87,5 +87,6 @@ public class Ejer_32 {
                
               System.out.println("Digitos pares " +nuevo2);
               System.out.println("La suma es "+ suma);*/
+             entrada.close();
     }
 }

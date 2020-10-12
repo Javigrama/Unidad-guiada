@@ -21,6 +21,7 @@ public class Ejer_22 {
               for(int i=2; i<=100; i++)
                   if(esPrimo(i)) System.out.print(i+" ");
              
+              entrada.close();
     
     }
      

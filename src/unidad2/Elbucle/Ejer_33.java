@@ -34,6 +34,7 @@ public class Ejer_33 {
                 else System.out.print("* ");}
             
             System.out.println();
+            entrada.close();
     
     }
     

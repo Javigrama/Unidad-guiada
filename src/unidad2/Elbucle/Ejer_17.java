@@ -31,6 +31,7 @@ public class Ejer_17 {
                   n+=n+1;
               
                System.out.println(n);}
+              entrada.close();
      }
     
     

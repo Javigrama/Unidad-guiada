@@ -31,6 +31,7 @@ public class Ejer_18 {
               
               for(int i=n1; i<=n2; i+=7)
                   System.out.print(i+" ");
+              entrada.close();
           }
     
 }

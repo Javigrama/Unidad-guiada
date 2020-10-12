@@ -49,6 +49,6 @@ public class Ejer_21 {
               
               
               
-    
+              entrada.close();
         }
 }

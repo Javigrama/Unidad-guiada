@@ -36,6 +36,7 @@ public class Ejer_26 {
             System.out.println("El número tiene "+count+  (count>1?" dígitos": " dígito"));
             
             while(count>0){
+                
             cifra=(int)(n/Math.pow(10, count-1));
             
             if(cifra==digito)
