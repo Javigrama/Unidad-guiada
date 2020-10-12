@@ -86,7 +86,7 @@ public class Ejer_50 {
            System.out.println();
        }
          
-        
+        entrada.close();
        }
        
 
