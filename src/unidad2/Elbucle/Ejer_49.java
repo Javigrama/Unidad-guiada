@@ -69,5 +69,7 @@ public class Ejer_49 {
         System.out.println("El máximno es "+ maximo);
         System.out.println("El mínimo es "+ minimo);
         System.out.println("La media es "+ suma/(count>0?count:1));
+        
+        entrada.close();
     }
 }
