@@ -82,7 +82,10 @@ public class Ejer_43 {
                   
                 
                 System.out.println("Los números partidos son el "+ partido1+ " y el "+ (particion>cifras2 ? partido2bis: partido2));
-                //System.out.println(particion+" "+ cifras2+ " "+partido2bis);
+                //Si la variable partición es mayor que las cifras del segundo número , quiere decir que al concretarse el número se
+                //descartaron los ceros a la izda. Por eso las cifras de ese número son menores. Si son iguales imprimimos los
+                //números tal cuál. Si no son iguales imprimimos el partido2bis al que se le han añadido tantos ceros a la izda     
+                //como ha sido preciso para que la variable partición sea igual al total de cifras incluidas 0 del partido 2
                  
               entrada.close();
       }
