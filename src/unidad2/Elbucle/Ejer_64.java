@@ -13,6 +13,7 @@ import java.util.Scanner;
  * Agrandarlo incrementa en 1 la anchura y la altura
  * Decrementarlo en 1
  * Cambio de orientacion es altura igual a anchura y viceversa
+ * Valor mínimo de anchura o altura es 2
  * @author javie
  */
 public class Ejer_64 {
