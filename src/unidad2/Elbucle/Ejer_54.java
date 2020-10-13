@@ -35,5 +35,6 @@ public class Ejer_54 {
                     
                     System.out.println();
                 }
+                entrada.close();
     }
 }

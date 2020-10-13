@@ -8,12 +8,11 @@ package unidad2.Elbucle;
 import java.util.Scanner;
 
 /**
- * Pintar un triángulo de asteriscos que decrezca 
+ *
  * @author javie
  */
-public class Ejer_53 {
-    
-      public static void main(String[] args) {
+public class Ejer_57 {
+     public static void main(String[] args) {
     
               int h;
           
@@ -22,14 +21,19 @@ public class Ejer_53 {
                 h=entrada.nextInt();
     
                 
-                for(int i=h; i>0; i--){
+                for(int i=1; i<=h; i++){
                     
                     for(int j=1; j<=h; j++)
-                        
-                    if(i>j)System.out.print("*");
+                        if(i==1)System.out.print("*");
+                    
+                        else{
+   
+                    if(j==h||j==i)System.out.print("*");
+                    else System.out.print(" ");}
                     
                     System.out.println();
                 }
                 entrada.close();
     }
+    
 }
