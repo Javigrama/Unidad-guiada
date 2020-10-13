@@ -56,15 +56,14 @@ public class Ejer_63 {
                   
                   int h3=h-h2;
                   if(i>h-h2){
-                  for(int j=1; j<2*h2; j++){
+                    for(int j=1; j<2*h2; j++){
                       
                          System.out.print(j>h2-i+h3&&j<h2+i-h3? "*":" ");
-                  }
+                     }
                   }
                    System.out.println();
                 }
-                 // int an=(2*h-1)+(2*h2-1);
-                  //for (int j=2*h; j<=an; j++){
+               
                }
                   
               }
