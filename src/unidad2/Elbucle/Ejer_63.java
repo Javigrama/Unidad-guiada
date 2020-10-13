@@ -39,7 +39,7 @@ public class Ejer_63 {
                  }
                 
                 
-                
+               if(h>h2){ 
           
                for(int i=1; i<=h; i++){
                   
@@ -65,7 +65,7 @@ public class Ejer_63 {
                 }
                  // int an=(2*h-1)+(2*h2-1);
                   //for (int j=2*h; j<=an; j++){
-                         
+               }
                   
               }
                      
