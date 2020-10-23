@@ -85,7 +85,7 @@ public class PruebaCubo {
                }
              
                  
-//                 System.out.println(cubo2.toString());
+
           
             }while(opcion!=0);
                 
