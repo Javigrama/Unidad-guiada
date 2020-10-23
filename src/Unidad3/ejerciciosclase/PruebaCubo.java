@@ -20,8 +20,7 @@ public class PruebaCubo {
       public static void main(String[] args) {
          
             
-         Cubo cubo=null; 
-         Cubo cubo2;         
+         Cubo cubo=null;         
          int opcion=-1;
          
      
@@ -69,7 +68,7 @@ public class PruebaCubo {
                             
                             
                    case 3: 
-                           cubo.vuelcaEn(new Cubo(validarDouble(), "Cubo"));
+                           cubo.vuelcaEn(new Cubo(validarDouble(), "Cubo_Destino"));
                            break;
                         
                    case 4: 

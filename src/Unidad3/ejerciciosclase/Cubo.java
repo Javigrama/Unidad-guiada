@@ -22,7 +22,7 @@ public class Cubo {
   
     static int contador=0;        // complementael  nomnbre  a los cubos  
     private double arista;       // el lado del cubo
-    private double contenido;   //representa cvomo de lleno está el cubo
+    private double contenido;   //representa como de lleno está el cubo
     private String name;        
 
        
@@ -42,10 +42,16 @@ public class Cubo {
         this.setContenido(0);
         System.out.println(this.toString());
         System.out.println(destino.toString());}
-        else{ System.out.println("Si hace eso el cubo rebosará y se pondrá todo perdido"
-                + "\nEl "+this.getName()+ " tiene una contenido de "+ this.getContenido()
-                +" \ny usted pretende verter eso en el "+ destino.getName()+ " cuya capacidad"
-                + " es de "+ destino.volumen(destino.getArista()));}
+        
+        else if(this.getContenido()>destino.volumen(destino.getArista())){
+        
+            this.setContenido(this.getContenido()-destino.volumen(destino.getArista()));
+            destino.llena(destino.getArista());
+            System.out.println(this.toString());
+            System.out.println(destino.toString());
+        
+        
+        }
       
     }
 
