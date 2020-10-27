@@ -87,7 +87,7 @@ public class Cubo {
         if(getContenido()==0) System.out.println("El "+ getName()+ " ya está vacío");
         else { setContenido(0);
                System.out.println("El " +getName()+ " ahora está vacío"); 
-               System.out.println(this.toString());
+               System.out.println(toString());
         }
         
     }
@@ -112,9 +112,9 @@ public class Cubo {
     @Override
     public String toString(){
         
-        return "El " +this.getName()+ " tiene una capacidad de "+ this.volumen(arista) +
-                (this.getContenido()==0? " y ahora está vacío": (this.getContenido()==this.volumen(this.getArista())? 
-                " y ahora está lleno": " y un contenido de "+ this.getContenido()));
+        return "El " +getName()+ " tiene una capacidad de "+ volumen(arista) +
+                (getContenido()==0? " y ahora está vacío": (getContenido()==volumen(getArista())? 
+                " y ahora está lleno": " y un contenido de "+ getContenido()));
     }
          
 

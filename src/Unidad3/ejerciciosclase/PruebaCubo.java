@@ -20,15 +20,16 @@ public class PruebaCubo {
       public static void main(String[] args) {
          
             
-         Cubo cubo=null;         
+         Cubo cubo=null;   
          int opcion=-1;
          
      
             do{
-                if(cubo==null){ System.out.println ("Creando un cubo: ");
-                 cubo= new Cubo(validarDouble(), "Cubo"); 
+                if(cubo==null){ System.out.println ("Creando un cubo origen: ");
+                 cubo= new Cubo(validarDouble(), "Cubo_origen"); 
                   System.out.println(cubo.toString());
-                
+                  
+                 
                 }
                 
                try{
@@ -36,7 +37,7 @@ public class PruebaCubo {
                 System.out.println("Introduzca una opción");
                 System.out.println("1. Vacíe el cubo:  ");
                 System.out.println("2. Llene el cubo: ");
-                System.out.println("3. Vierta el contenido de un cubo en el otro:  ");
+                System.out.println("3. Vierta el contenido de un cubo en otro:  ");
                 System.out.println("4. Destruyendo el cubo:  ");
                 System.out.println("0. Salir:  ");
                 System.out.print("--> ");
@@ -65,8 +66,7 @@ public class PruebaCubo {
                             cubo.llena(cubo.getArista());
                             System.out.println(cubo.toString());
                             break;
-                            
-                            
+                                 
                    case 3: 
                            cubo.vuelcaEn(new Cubo(validarDouble(), "Cubo_Destino"));
                            break;
