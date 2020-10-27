@@ -67,8 +67,9 @@ public class PruebaCubo {
                             System.out.println(cubo.toString());
                             break;
                                  
-                   case 3: 
-                           cubo.vuelcaEn(new Cubo(validarDouble(), "Cubo_Destino"));
+                   case 3:
+                           if(cubo.getContenido()==0)System.out.println("El "+ cubo.getName()+ " está vacío...que quieres volcar?");
+                           else cubo.vuelcaEn(new Cubo(validarDouble(), "Cubo_Destino"));
                            break;
                         
                    case 4: 

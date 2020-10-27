@@ -38,10 +38,11 @@ public class Cubo {
     
     public void vuelcaEn(Cubo destino){
         
+       
         if(this.getContenido()<=destino.volumen(destino.getArista())){ destino.setContenido(this.getContenido());
-        this.setContenido(0);
-        System.out.println(this.toString());
-        System.out.println(destino.toString());}
+             this.setContenido(0);
+             System.out.println(this.toString());
+             System.out.println(destino.toString());}
         
         else if(this.getContenido()>destino.volumen(destino.getArista())){
         
@@ -49,9 +50,10 @@ public class Cubo {
             destino.llena(destino.getArista());
             System.out.println(this.toString());
             System.out.println(destino.toString());
-        
-        
         }
+        
+        
+        
       
     }
 
